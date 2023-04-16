@@ -1,0 +1,26 @@
+# EditorConfig is awesome: https://EditorConfig.org
+
+# top-most EditorConfig file
+root = true
+
+# Unix-style newlines with a newline ending every file
+[*]
+indent_size = 4
+indent_style = space
+end_of_line = lf
+insert_final_newline = true
+
+[*.md]
+indent_size = 4
+
+[*bas]
+indent_size = 4
+
+# Assembly language files
+[*.{asm,inc}]
+indent_size = 4
+
+# Tab indentation (no size specified)
+[Makefile]
+indent_style = tab
+indent_size = 4
