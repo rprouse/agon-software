@@ -15,6 +15,7 @@ indent_size = 4
 
 [*bas]
 indent_size = 4
+end_of_line = crlf
 
 # Assembly language files
 [*.{asm,inc}]
