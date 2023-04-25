@@ -99,6 +99,12 @@ _skip_spaces:
 	jr _skip_spaces
 
 prstr:
+	ld bc,0
+	ld a,0
+	rst.lil 18h
+	ret
+
+	; Old single byte at a time code
 	ld a,(hl)
 	or a
 	ret z
