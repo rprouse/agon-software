@@ -1,2 +1,4 @@
 **/*.bak
 **/*.bin
+**/Release
+**/Debug
